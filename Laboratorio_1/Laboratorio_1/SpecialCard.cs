@@ -8,9 +8,7 @@ namespace Card
         string buffType;
         string effect;
 
-        public SpecialCard()
-        {
-        }
+       
 
         public SpecialCard(string n, string t, string b, string e)
         {

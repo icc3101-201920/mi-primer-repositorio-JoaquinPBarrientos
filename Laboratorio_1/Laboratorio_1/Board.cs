@@ -29,49 +29,57 @@ namespace Card
         public List<CombatCard> MeleeCards
         {
             get => meleeCards;
-            set => meleeCards = value;
+          
         }
 
         public List<CombatCard> RangeCards
         {
             get => rangeCards;
-            set => rangeCards = value;
+            
         }
 
         public List<CombatCard> LongRangeCards
         {
             get => longRangeCards;
-            set => longRangeCards = value;
+           
         }
 
         public List<SpecialCard> SpecialMeleeCards
         {
             get => specialMeleeCards;
-            set => specialMeleeCards = value;
+            
         }
 
         public List<SpecialCard> SpecialRangeCards
         {
             get => specialRangeCards;
-            set => specialRangeCards = value;
+            
         }
 
         public List<SpecialCard> SpecialLongRangeCards
         {
             get => specialLongRangeCards;
-            set => specialLongRangeCards = value;
+           
         }
 
         public List<SpecialCard> CaptainCards
         {
             get => captainCards;
-            set => captainCards = value;
+        
         }
 
         public List<SpecialCard> WeatherCards
         {
             get => weatherCards;
-            set => weatherCards = value;
+            
+        }
+
+        public void AddCombatCard(int playerId,CombatCard combatCard)
+        {
+
+            Console.WriteLine("No se que hacer");
+
+
         }
     }
 }
